@@ -1,0 +1,15 @@
+@charset "UTF-8";
+ body {
+    font-family: Noto Serif JP, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  article {
+	text-align: center;
+}
+  article h1{
+	background: #333;
+	color: white;
+}

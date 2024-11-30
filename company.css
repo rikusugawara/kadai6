@@ -1,0 +1,34 @@
+@charset "UTF-8";
+ body {
+    font-family: Noto Serif JP, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+
+  aside {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 10px;
+  }
+
+footer {
+  background: #333; 
+  color: white; 
+  text-align: center;  
+  width: 100%; 
+  padding: 10px 0; 
+  box-sizing: border-box;
+}
+  
+  article  h3{
+	color: red;
+}
+
+  article {
+	text-align: center;
+}
+  article h1{
+	background: #333;
+	color: white;
+}
