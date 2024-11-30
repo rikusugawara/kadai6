@@ -20,7 +20,7 @@ nav ul li a {
     text-decoration: none;
   }
 img {
-    max-width: 100%;
+    width: 200px;
     height: auto;
     border-radius: 8px;
   }
