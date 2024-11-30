@@ -20,7 +20,11 @@ nav ul li a {
     text-decoration: none;
   }
 
-
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
  
 
 .big_box {
