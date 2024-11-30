@@ -1,52 +1,58 @@
 @charset "UTF-8";
-body {
+ body {
     font-family: Noto Serif JP, sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
   }
-nav ul {
+
+
+  nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
     background: red;
   }
-nav ul li {
+
+  nav ul li {
     margin: 0 15px;
   }
-nav ul li a {
+
+  nav ul li a {
     color: white;
     text-decoration: none;
   }
-
-img {
+　img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
   }
+
  
 
-.big_box {
+  .big_box {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
+	flex-wrap: wrap;
   }
 
-main {
+  main {
     width: 100%;
   }
-.menu {
+  .menu {
     background-color: #BEBEBE;
+
+	  
   }
 
-.menu h1 {
+  .menu h1 {
     text-align: center;
 	color: white;
     margin-bottom: 20px;
     background: #333;	
   }
-.menu h2 {
+  .menu h2 {
     text-align: center;
     width: fit-content; 
 	color: white;
@@ -57,19 +63,19 @@ main {
   }
 
 
-.menu .meat-category {
+  .menu .meat-category {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
     gap: 20px;
   }
 
-.menu .meat-category div {
+  .menu .meat-category div {
     flex: 1 1 200px;
     text-align: center;
   }
 
-.menu img {
+  .menu img {
     width: 200px;
     height: auto;
     border-radius: 8px;
