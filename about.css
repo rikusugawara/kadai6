@@ -30,7 +30,7 @@ img {
 .big_box {
     display: flex;
     align-items: center;
-    max-width: 1200px;
+    flex-wrap: wrap;
   }
 
 main {
